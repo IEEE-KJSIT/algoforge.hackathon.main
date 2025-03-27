@@ -241,7 +241,7 @@ function App() {
         >
           <div className="relative">
             <motion.img
-              src="/IEEE NEW LOGO white v2.png"
+              src="IEEE NEW LOGO white v2.png"
               alt="IEEE Logo"
               className="w-40 md:w-64 mb-8 relative z-10"
             />
