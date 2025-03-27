@@ -6,6 +6,7 @@ import Timeline from './components/Timeline';
 import Domains from './components/Domains';
 import Guidelines from './components/Guidelines';
 import Prizes from './components/Prizes';
+import IEEELogo from './assets/IEEE NEW LOGO white v2.png';
 
 function App() {
   const [timeLeft, setTimeLeft] = useState({
@@ -241,7 +242,7 @@ function App() {
         >
           <div className="relative">
             <motion.img
-              src="IEEE NEW LOGO white v2.png"
+              src={IEEELogo}
               alt="IEEE Logo"
               className="w-40 md:w-64 mb-8 relative z-10"
             />
