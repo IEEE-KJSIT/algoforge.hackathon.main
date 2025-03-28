@@ -30,15 +30,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Ensure no CNAME file
-        run: |
-          if [ -f "dist/CNAME" ]; then
-            echo "Found CNAME file. Removing it."
-            rm dist/CNAME
-          else
-            echo "No CNAME file found in dist directory."
-          fi
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -48,4 +39,4 @@ jobs:
           force_orphan: true
           commit_message: "Deploy to GitHub Pages"
           keep_files: false
-          cname: ""
+          cname: "algoforge.tech"
