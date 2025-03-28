@@ -4,7 +4,7 @@ A hackathon website for IEEE KJSIT Student Chapter.
 
 ## Hosted URL
 
-This site is hosted on GitHub Pages at: https://ieee-kjsit.github.io/algoforge.main.site/
+This site is hosted at: https://algoforge.tech
 
 ## Development
 
