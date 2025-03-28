@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Asset Loading Test</h1>
+  <p>This page tests if static assets can be loaded properly.</p>
+  
+  <h2>Image Test</h2>
+  <img src="/IEEE NEW LOGO white v2.png" alt="IEEE Logo" style="background-color: #000;">
+  
+  <h2>Path Information</h2>
+  <pre id="path-info"></pre>
+
+  <script>
+    document.getElementById('path-info').textContent = 
+      `Current URL: ${window.location.href}
+Current Path: ${window.location.pathname}
+Base URL: ${document.baseURI}`;
+  </script>
+</body>
+</html> 
